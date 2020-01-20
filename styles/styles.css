@@ -28,15 +28,6 @@ body {
 	font-size: 25px;
 }
 
-.middleing {
-	border-style: solid;
-	border-width: 5px;
-	border-color: blue;
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 img.Acircle {
 	height: 70px;
 	width: 70px;
@@ -46,11 +37,27 @@ img.Acircle {
 }
 
 img.h1circle {
-	width: 400px;
-	height: 400px;	
+	width: 100%;
+	height: auto;	
 	border-radius: 250px;
 	vertical-align: text-top;
 	border-width: 10px;
 	border-style: solid;
 	border-color: #dddddd;
+}
+
+
+.banner {
+	display: flex;
+	flex-direction: row;
+}
+
+.banner .pic {
+	flex-basis: 27%;
+	padding-right: 50px;
+}
+
+.banner .text-content {
+	font-size: 20px;
+	flex-basis: 70%;
 }
