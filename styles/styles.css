@@ -1,10 +1,56 @@
 body {
 	/*GARDER LE MARGIN A 0 POUR EVITER CELUI PAR DEFAUT*/
-	margin: 100px;
+	margin: 0px;
 	background-color: #ffe19c;
-	background-image:url(../img/fixed-background.jpg);
+	background-image:url(../img/background.png);
 	background-size: cover;
 	background-position: top;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+}
+
+.test {
+	width: 90%;
+	background-color: #ffffff;
+	color: black;
+	border-style: solid;
+	border-width: 8px;
+	border-color: #ffffff;
+	border-radius: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+}
+
+.heading {
+	margin-top: 40px;
+	margin-bottom: 80px;
+	font-size: 25px;
+}
+
+.middleing {
+	border-style: solid;
+	border-width: 5px;
+	border-color: blue;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.Acircle {
+	height: 70px;
+	width: 70px;
+	border-radius: 90px;
+	margin-left: 2%;
+	vertical-align: middle;
+}
+
+img.h1circle {
+	width: 400px;
+	height: 400px;	
+	border-radius: 250px;
+	vertical-align: middle;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #dddddd;
 }
