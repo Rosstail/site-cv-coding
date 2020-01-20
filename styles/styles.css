@@ -1,0 +1,10 @@
+body {
+	/*GARDER LE MARGIN A 0 POUR EVITER CELUI PAR DEFAUT*/
+	margin: 100px;
+	background-color: #ffe19c;
+	background-image:url(../img/fixed-background.jpg);
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
