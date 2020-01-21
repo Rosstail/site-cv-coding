@@ -46,7 +46,6 @@ img.h1circle {
 	border-color: #dddddd;
 }
 
-
 .banner {
 	display: flex;
 	flex-direction: row;
@@ -61,3 +60,59 @@ img.h1circle {
 	font-size: 20px;
 	flex-basis: 70%;
 }
+
+.banner .button {
+	border-style: solid;
+	border-color: #34ccff;
+	border-radius: 180px;
+	padding: 9px 20px;
+	color: black;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+.banner .button:hover {
+	color: #A5ACAD;
+	border-color: gold;
+}
+
+p.desc {
+	margin-bottom: 30px;
+}
+
+.test2 {
+	border-bottom-style: solid;
+	border-color: gray;
+	border-width: 2px;
+}
+
+.footer {
+	margin-top: 10px;
+	/*text-align: justify;*/
+}
+
+.textage {
+	display: flex;
+	flex-direction: row;
+	width: 84%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.textage .col {
+	text-decoration: none;
+	flex-basis: 25%;
+}
+
+.textage a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.textage a:hover {
+	color: green;
+}
+/*p.textage a:nth-child(4) {
+	font-size: 30px;
+}*/
