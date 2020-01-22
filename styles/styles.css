@@ -88,7 +88,6 @@ p.desc {
 
 .footer {
 	margin-top: 10px;
-	/*text-align: justify;*/
 }
 
 .textage {
@@ -112,6 +111,44 @@ p.desc {
 
 .textage a:hover {
 	color: green;
+}
+
+h2 {
+	color: black;
+	text-decoration: underline;
+	text-decoration-color: #A5ACAD;
+}
+
+.comps::before {
+	content: "Co";
+	text-decoration: underline;
+	text-decoration-color: #34ccff;
+}
+
+.projs::before {
+	content: "Pr";
+	text-decoration: underline;
+	text-decoration-color: #34ccff;
+}
+
+.reals::before {
+	content: "Ré";
+	text-decoration: underline;
+	text-decoration-color: #34ccff;
+}
+
+.wrapper {
+  	width: 90%;
+  	margin-left: auto;
+  	margin-right: auto;
+ 	display: grid;
+ 	grid-template-columns: repeat(2, 1fr);
+  	grid-gap: 0px;
+}
+
+.compimg {
+	height: 50px;
+	vertical-align: middle;
 }
 /*p.textage a:nth-child(4) {
 	font-size: 30px;
