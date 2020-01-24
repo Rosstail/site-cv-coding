@@ -9,7 +9,7 @@ body {
 	background-attachment: fixed;
 }
 
-.test {
+.coat {
 	width: 90%;
 	background-color: #ffffff;
 	color: black;
@@ -20,12 +20,71 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 60px;
+	margin-bottom: 60px;
+	box-shadow: 0 0 2em black;
+}
+
+.double-coat{
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 .heading {
 	margin-top: 40px;
 	margin-bottom: 80px;
 	font-size: 25px;
+}
+
+.links {
+	display: flex;
+	justify-content: space-between;
+}
+
+.buttonbox {
+	display:flex;
+	flex-basis: 13%;
+	justify-content:
+	space-between;
+	font-size: 0.7em;
+}
+
+.titleler {
+	flex-basis: 87%;
+	margin-bottom: 60px;"
+}
+
+.titleler a.page {
+	display:flex;
+	align-items: center;
+	text-decoration: none;
+	color: black;
+}
+
+a.pageAcc {
+	padding-right: 40%;
+	text-decoration: none;
+	color: black;
+}
+
+a.pageCon {
+	text-decoration: none;
+	color: black;
+}
+
+a.pageAcc:hover {
+	background-color: lightgray;
+	border-style: solid;
+	border-color: black;
+	border-radius: 23px;
+	padding: 6px 10px;
+}
+
+a.pageCon:hover {
+	background-color: lightgray;
+	border-style: solid;
+	border-color: black;
+	border-radius: 23px;
+	padding: 6px 10px;
 }
 
 img.Acircle {
@@ -37,7 +96,7 @@ img.Acircle {
 }
 
 img.h1circle {
-	width: 100%;
+	width: 70%;
 	height: auto;	
 	border-radius: 250px;
 	vertical-align: text-top;
@@ -52,13 +111,13 @@ img.h1circle {
 }
 
 .banner .pic {
-	flex-basis: 27%;
+	flex-basis: 50%;
 	padding-right: 50px;
 }
 
 .banner .text-content {
 	font-size: 20px;
-	flex-basis: 70%;
+	flex-basis: 50%;
 }
 
 .banner .button {
@@ -81,6 +140,7 @@ p.desc {
 }
 
 .test2 {
+	padding-bottom: 25px;
 	border-bottom-style: solid;
 	border-color: gray;
 	border-width: 2px;
@@ -125,10 +185,53 @@ h2 {
 	text-decoration-color: #34ccff;
 }
 
+.wrapper {
+  	width: 90%;
+  	margin-left: auto;
+  	margin-right: auto;
+ 	display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: wrap;
+}
+
+.comp {
+	display: flex;
+	flex-direction: row;
+	flex-basis: 50%;
+}
+
+.comp .img {
+	height: 50px;
+	vertical-align: middle;
+}
+
+.comp .txt {
+	margin-left: 3%;
+}
+
+.test {
+	height: 7px;
+	width: 30px;
+	background-color: #34ccff;
+	border-color: #34ccff;
+	border-style: solid;
+	border-radius: 10px;
+}
+
+.jsbuttons {
+	text-align: center;
+}
+
 .projs::before {
 	content: "Pr";
 	text-decoration: underline;
 	text-decoration-color: #34ccff;
+}
+
+.prjlist {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .reals::before {
@@ -137,19 +240,38 @@ h2 {
 	text-decoration-color: #34ccff;
 }
 
-.wrapper {
-  	width: 90%;
-  	margin-left: auto;
-  	margin-right: auto;
- 	display: grid;
- 	grid-template-columns: repeat(2, 1fr);
-  	grid-gap: 0px;
+.realsep {
+	display: flex;
+	justify-content: space-between;
 }
 
-.compimg {
-	height: 50px;
-	vertical-align: middle;
+.real {
+	flex-basis: 20%
 }
-/*p.textage a:nth-child(4) {
-	font-size: 30px;
-}*/
+
+.realsimg {
+	width: 50%;
+}
+
+.realspace {
+	flex-basis: 22%;
+}
+
+.realstl {
+	border-style: solid;
+	border-color: gold;
+	text-align: center;
+	border-radius: 20px;
+}
+
+.realstl p.bold {
+	font-weight: bold;
+}
+
+.realstl p.gray {
+	color: gray;
+	font-weight: bold;
+	font-size: 3.0em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
